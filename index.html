@@ -1,0 +1,352 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>JJ House</title>
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+    integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+
+<body>
+  <nav class="navbar">
+    <div class="navbar-center">
+      <h2>Epic-Mall</h2>
+      <div class="weight">
+        <span class="nav-icon weight-container">
+          Knapsack Weight:
+        </span>
+        <div class="weight-items">0kg</div>
+      </div>
+      <div class="cart-btn">
+        <span class="nav-icon">
+          <i class="fas fa-cart-plus"></i>
+        </span>
+        <div class="cart-items">0</div>
+      </div>
+    </div>
+  </nav>
+  <div class="alert"></div>
+  <header class="knapsack-weight">
+    <div class="banner">
+      <h1 class="banner-title">Enter knapsack Weight</h1>
+      <form id="form">
+        <input type="number">
+        <button type="submit" class="banner-btn">Choose Weight</button>
+      </form>
+    </div>
+  </header>
+  <section class="products">
+    <div class="section-title">
+      <h2>our products</h2>
+    </div>
+    <div class="products-center">
+      <article class="product">
+        <div class="img-container">
+          <img src="https://source.unsplash.com/6iyVYPzgFpw/1000x662" alt="product" class="product-img">
+          <button class="bag-btn" data-id="1">
+            <i class="fas fa-shopping-cart"></i>
+            add to knapsack
+          </button>
+        </div>
+        <h3>Ice Cream Treat</h3>
+        <div class="details">
+          <h4>$10.99</h4>
+          <h4>10 kg</h4>
+        </div>
+      </article>
+      <article class="product">
+        <div class="img-container">
+          <img src="https://source.unsplash.com/AHovO6qOdFg/1000x662" alt="product" class="product-img">
+          <button class="bag-btn" data-id="2">
+            <i class="fas fa-shopping-cart"></i>
+            add to knapsack
+          </button>
+        </div>
+        <h3>Apricot Iced tea Popsicles</h3>
+        <div class="details">
+          <h4>$15.99</h4>
+          <h4>17 kg</h4>
+        </div>
+      </article>
+      <article class="product">
+        <div class="img-container">
+          <img src="https://source.unsplash.com/MXovqM130UI/1000x662" alt="product" class="product-img">
+          <button class="bag-btn" data-id="3">
+            <i class="fas fa-shopping-cart"></i>
+            add to knapsack
+          </button>
+        </div>
+        <h3>Autumnal Treats</h3>
+        <div class="details">
+          <h4>$17.99</h4>
+          <h4>19 kg</h4>
+        </div>
+      </article>
+      <article class="product">
+        <div class="img-container">
+          <img src="https://source.unsplash.com/8Jg4U4xHu-o/1000x662" alt="product" class="product-img">
+          <button class="bag-btn" data-id="4">
+            <i class="fas fa-shopping-cart"></i>
+            add to knapsack
+          </button>
+        </div>
+        <h3>Ice Cream Treat</h3>
+        <div class="details">
+          <h4>$18.99</h4>
+          <h4>14 kg</h4>
+        </div>
+      </article>
+      <article class="product">
+        <div class="img-container">
+          <img src="https://source.unsplash.com/QsGtVwWStI8/1000x662" alt="product" class="product-img">
+          <button class="bag-btn" data-id="5">
+            <i class="fas fa-shopping-cart"></i>
+            add to knapsack
+          </button>
+        </div>
+        <h3>Baking Bread</h3>
+        <div class="details">
+          <h4>$12.99</h4>
+          <h4>12 kg</h4>
+        </div>
+      </article>
+      <article class="product">
+        <div class="img-container">
+          <img src="https://source.unsplash.com/DfbrRpHTLy0/1000x662" alt="product" class="product-img">
+          <button class="bag-btn" data-id="6">
+            <i class="fas fa-shopping-cart"></i>
+            add to knapsack
+          </button>
+        </div>
+        <h3>Complete Breakfast Set</h3>
+        <div class="details">
+          <h4>$120.99</h4>
+          <h4>100 kg</h4>
+        </div>
+      </article>
+      <article class="product">
+        <div class="img-container">
+          <img src="https://source.unsplash.com/VRB1LJoTZ6w/1000x662" alt="product" class="product-img">
+          <button class="bag-btn" data-id='7'>
+            <i class="fas fa-shopping-cart"></i>
+            add to knapsack
+          </button>
+        </div>
+        <h3>sandwiches</h3>
+        <div class="details">
+          <h4>$50.99</h4>
+          <h4>66 kg</h4>
+        </div>
+      </article>
+      <article class="product">
+        <div class="img-container">
+          <img src="https://source.unsplash.com/xKSRpUH0VZo/1000x662" alt="product" class="product-img">
+          <button class="bag-btn" data-id="8">
+            <i class="fas fa-shopping-cart"></i>
+            add to knapsack
+          </button>
+        </div>
+        <h3>Meat Stew</h3>
+        <div class="details">
+          <h4>$10.99</h4>
+          <h4>10 kg</h4>
+        </div>
+      </article>
+      <article class="product">
+        <div class="img-container">
+          <img src="https://source.unsplash.com/O67LZfeyYBk/1000x662" alt="product" class="product-img">
+          <button class="bag-btn" data-id="9">
+            <i class="fas fa-shopping-cart"></i>
+            add to knapsack
+          </button>
+        </div>
+        <h3>Meat Treat</h3>
+        <div class="details">
+          <h4>$40.99</h4>
+          <h4>40 kg</h4>
+        </div>
+      </article>
+      <article class="product">
+        <div class="img-container">
+          <img src="https://source.unsplash.com/AUAuEgUxg5Q/1000x662" alt="product" class="product-img">
+          <button class="bag-btn" data-id="10">
+            <i class="fas fa-shopping-cart"></i>
+            add to knapsack
+          </button>
+        </div>
+        <h3>Spaghetti Treat</h3>
+        <div class="details">
+          <h4>$65.99</h4>
+          <h4>65 kg</h4>
+        </div>
+      </article>
+      <article class="product">
+        <div class="img-container">
+          <img src="https://source.unsplash.com/12eHC6FxPyg/1000x662" alt="product" class="product-img">
+          <button class="bag-btn" data-id="11">
+            <i class="fas fa-shopping-cart"></i>
+            add to knapsack
+          </button>
+        </div>
+        <h3>Pesto Pasta</h3>
+        <div class="details">
+          <h4>$88.99</h4>
+          <h4>88 kg</h4>
+        </div>
+      </article>
+      <article class="product">
+        <div class="img-container">
+          <img src="https://source.unsplash.com/auIbTAcSH6E/1000x662" alt="product" class="product-img">
+          <button class="bag-btn" data-id="12">
+            <i class="fas fa-shopping-cart"></i>
+            add to knapsack
+          </button>
+        </div>
+        <h3>Steak Dinner</h3>
+        <div class="details">
+          <h4>$60.99</h4>
+          <h4>65 kg</h4>
+        </div>
+      </article>
+      <article class="product">
+        <div class="img-container">
+          <img src="https://source.unsplash.com/7cve1jTDlfM/1000x662" alt="product" class="product-img">
+          <button class="bag-btn" data-id="13">
+            <i class="fas fa-shopping-cart"></i>
+            add to knapsack
+          </button>
+        </div>
+        <h3>Bugger</h3>
+        <div class="details">
+          <h4>$78.99</h4>
+          <h4>60 kg</h4>
+        </div>
+      </article>
+      <article class="product">
+        <div class="img-container">
+          <img src="https://source.unsplash.com/Pt_YmiYm7a4/1000x662" alt="product" class="product-img">
+          <button class="bag-btn" data-id="14">
+            <i class="fas fa-shopping-cart"></i>
+            add to knapsack
+          </button>
+        </div>
+        <h3>Spanish Paella</h3>
+        <div class="details">
+          <h4>$34.99</h4>
+          <h4>54 kg</h4>
+        </div>
+      </article>
+      <article class="product">
+        <div class="img-container">
+          <img src="https://source.unsplash.com/awj7sRviVXo/1000x662" alt="product" class="product-img">
+          <button class="bag-btn" data-id="15">
+            <i class="fas fa-shopping-cart"></i>
+            add to knapsack
+          </button>
+        </div>
+        <h3>Meal with salmon and zucchini</h3>
+        <div class="details">
+          <h4>$200.99</h4>
+          <h4>153 kg</h4>
+        </div>
+      </article>
+      <article class="product">
+        <div class="img-container">
+          <img src="https://source.unsplash.com/QaGDmf5tMiE/1000x662" alt="product" class="product-img">
+          <button class="bag-btn" data-id="16">
+            <i class="fas fa-shopping-cart"></i>
+            add to knapsack
+          </button>
+        </div>
+        <h3>Fancy Toast</h3>
+        <div class="details">
+          <h4>$17.99</h4>
+          <h4>18 kg</h4>
+        </div>
+      </article>
+      <article class="product">
+        <div class="img-container">
+          <img src="https://source.unsplash.com/uQs1802D0CQ/1000x662" alt="product" class="product-img">
+          <button class="bag-btn" data-id="17">
+            <i class="fas fa-shopping-cart"></i>
+            add to knapsack
+          </button>
+        </div>
+        <h3>Chopping Ingredients</h3>
+        <div class="details">
+          <h4>$10.99</h4>
+          <h4>10 kg</h4>
+        </div>
+      </article>
+      <article class="product">
+        <div class="img-container">
+          <img src="https://source.unsplash.com/09HGdZzkP-Q/1000x662" alt="product" class="product-img">
+          <button class="bag-btn" data-id="18">
+            <i class="fas fa-shopping-cart"></i>
+            add to knapsack
+          </button>
+        </div>
+        <h3>Desert Treat</h3>
+        <div class="details">
+          <h4>$71.99</h4>
+          <h4>80 kg</h4>
+        </div>
+      </article>
+      <article class="product">
+        <div class="img-container">
+          <img src="https://source.unsplash.com/fdlZBWIP0aM/1000x662" alt="product" class="product-img">
+          <button class="bag-btn" data-id="19">
+            <i class="fas fa-shopping-cart"></i>
+            add to knapsack
+          </button>
+        </div>
+        <h3>Avocado and Egg Toast</h3>
+        <div class="details">
+          <h4>$10.99</h4>
+          <h4>10 kg</h4>
+        </div>
+      </article>
+      <article class="product">
+        <div class="img-container">
+          <img src="https://source.unsplash.com/BSAJ2u8cbAA/1000x662" alt="product" class="product-img">
+          <button class="bag-btn" data-id="20">
+            <i class="fas fa-shopping-cart"></i>
+            add to knapsack
+          </button>
+        </div>
+        <h3>Fries</h3>
+        <div class="details">
+          <h4>$56.99</h4>
+          <h4>40 kg</h4>
+        </div>
+      </article>
+    </div>
+    <div class="submit">
+      <button class="banner-btn">Submit</button>
+    </div>
+  </section>
+  <div class="cart-overlay">
+    <div class="cart">
+      <span class="close-cart">
+        <i class="fas fa-window-close"></i>
+      </span>
+      <h2>your cart</h2>
+      <div class="cart-content">
+      </div>
+      <div class="cart-footer">
+        <h3>items weight : <span id="itemsWeight">0</span>kg</h3>
+        <h3>knapsack capacity : <span id="knapsackCapacity">0kg</span></h3>
+        <h3>your total : $ <span class="cart-total">0</span></h3>
+      </div>
+    </div>
+  </div> 
+</body>
+
+<script src="./main.js"></script>
+
+</html>
